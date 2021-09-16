@@ -1,6 +1,5 @@
 /* This example requires Tailwind CSS v2.0+ */
 import Avatar from '../images/avatar.png';
-import Search from './Search';
 
 export default function Header() {
     return (
@@ -46,9 +45,19 @@ export default function Header() {
                             FanMe
                         </span>
                     </div>
-                    <div className=''>
-                        <Search />
+
+                    {/* search starts */}
+                    <div className='hidden lg:flex relative'>
+                        <input
+                            type='text'
+                            name='price'
+                            id='price'
+                            className=' block w-full px-7 py-2 sm:text-sm rounded-md bg-gray-100 border-solid border border-gray-200  text-center'
+                            placeholder='Search'
+                        />
                     </div>
+                    {/* search ends */}
+
                     {/* section icons starts */}
                     <div className='hidden sm:flex items-center justify-end md:flex-1 lg:w-0'>
                         <svg
@@ -94,6 +103,7 @@ export default function Header() {
                             />
                         </svg>
                         {/* section icons ends */}
+
                         <img
                             src={Avatar}
                             alt='Avatar'
