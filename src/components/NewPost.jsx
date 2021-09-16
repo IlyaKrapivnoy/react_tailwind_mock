@@ -1,6 +1,6 @@
 const NewPost = () => {
     return (
-        <div className='mr-6'>
+        <div>
             <button className='inline-flex items-center  w-full justify-center py-4 text-newBlack bg-white font-bold rounded-md border-solid border border-gray-200'>
                 <svg
                     width='16'
