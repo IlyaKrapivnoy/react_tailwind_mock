@@ -6,7 +6,7 @@ function App() {
     return (
         <div>
             <Header />
-            <div className='homeContainer'>
+            <div className='flex max-w-4xl px-3 my-6 mx-auto justify-between'>
                 <Feed />
                 <Sidebar />
             </div>

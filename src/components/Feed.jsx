@@ -1,5 +1,5 @@
 const Feed = () => {
-    return <div></div>;
+    return <div className='w-4/6'>feed</div>;
 };
 
 export default Feed;
