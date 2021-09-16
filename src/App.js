@@ -6,7 +6,7 @@ function App() {
     return (
         <div className='relative bg-gray-50 h-full'>
             <Header />
-            <div className='flex max-w-4xl px-3 py-6 mx-auto justify-between '>
+            <div className='flex max-w-5xl px-3 py-6 mx-auto justify-between '>
                 <Feed />
                 <Sidebar />
             </div>

@@ -4,7 +4,7 @@ import Avatar from '../images/avatar.png';
 export default function Header() {
     return (
         <div className='border-b w-full bg-white fixed top-0 right-0'>
-            <div className='max-w-4xl mx-auto px-3'>
+            <div className='max-w-5xl mx-auto px-3'>
                 <div className='flex justify-center sm:justify-between items-center border-gray-100 py-2 md:justify-start md:space-x-10'>
                     <div className='flex justify-start lg:w-0 lg:flex-1 items-center'>
                         <a href='/'>
