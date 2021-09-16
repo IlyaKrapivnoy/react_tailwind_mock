@@ -1,7 +1,7 @@
 import Avatar from '../images/avatar-post.png';
 import PostImage from '../images/pic-post.png';
 
-const Post = () => {
+const Post = ({ post }) => {
     return (
         <div className='my-8 w-full bg-white rounded-md border-solid border border-gray-200'>
             <div className='flex justify-between py-4 px-4'>
@@ -42,12 +42,9 @@ const Post = () => {
                     </svg>
                 </div>
             </div>
-            <div className='post-img'>
-                <p className='text-sm mb-4 px-4'>
-                    Perfect forms with elegance, power and cutting edge
-                    technology.
-                </p>
-                <img src={PostImage} alt='' />
+            <div className='my-1'>
+                <p className='text-sm mb-4 px-4'>{post.description}</p>
+                <img src={PostImage} alt='a man on the water' />
             </div>
             <div className='flex justify-between py-4 px-4'>
                 <div className='cursor-pointer'>
@@ -94,7 +91,7 @@ const Post = () => {
                             />
                         </svg>
                     </div>
-                    <div className='text-xs text-gray-400'>30m ago</div>
+                    <div className='text-xs text-gray-400'>{post.date}</div>
                 </div>
                 <button className='text-base font-bold rounded-md bg-white border-solid border border-gray-200 text-center px-10 py-2'>
                     Share
