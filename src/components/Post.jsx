@@ -3,7 +3,7 @@ import PostImage from '../images/pic-post.png';
 
 const Post = () => {
     return (
-        <div className='my-4 w-full bg-white rounded-md border-solid border border-gray-200'>
+        <div className='my-8 w-full bg-white rounded-md border-solid border border-gray-200'>
             <div className='flex justify-between py-4 px-4'>
                 <div className='flex items-center'>
                     <div className='post-img'>
