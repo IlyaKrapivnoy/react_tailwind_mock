@@ -12,9 +12,13 @@ const SidebarCard = () => {
                             className='rounded-3xl h-12 w-12 object-cover cursor-pointer mr-4'
                         />
                     </div>
-                    <div className='cursor-pointer text-white'>
-                        <p className='font-bold text-sm'>Alex Lundqvist</p>
-                        <p className='text-xs'>alexlundqvist</p>
+                    <div className='cursor-pointer'>
+                        <p className='font-bold text-sm text-white'>
+                            Alex Lundqvist
+                        </p>
+                        <p className='text-xs text-white opacity-60'>
+                            alexlundqvist
+                        </p>
                     </div>
                 </div>
                 <div className='cursor-pointer '>

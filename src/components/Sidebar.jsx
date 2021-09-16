@@ -66,6 +66,9 @@ const Sidebar = () => {
             <SidebarCard />
             <SidebarCard />
             <SidebarCard />
+            <div className='flex justify-center text-blue-500 font-bold cursor-pointer'>
+                View All
+            </div>
         </div>
     );
 };
