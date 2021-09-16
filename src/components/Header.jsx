@@ -3,7 +3,7 @@ import Avatar from '../images/avatar.png';
 
 export default function Header() {
     return (
-        <div className='border-b'>
+        <div className='border-b bg-white'>
             <div className='max-w-4xl mx-auto px-3'>
                 <div className='flex justify-center sm:justify-between items-center border-gray-100 py-2 md:justify-start md:space-x-10'>
                     <div className='flex justify-start lg:w-0 lg:flex-1 items-center'>
@@ -52,7 +52,7 @@ export default function Header() {
                             type='text'
                             name='price'
                             id='price'
-                            className=' block w-full px-7 py-2 sm:text-sm rounded-md bg-gray-100 border-solid border border-gray-200  text-center'
+                            className=' block w-full px-7 py-2 sm:text-sm rounded-md bg-gray-100 border-solid border border-gray-200 text-center'
                             placeholder='Search'
                         />
                     </div>
