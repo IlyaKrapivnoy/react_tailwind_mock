@@ -6,6 +6,9 @@ module.exports = {
             textColor: {
                 newBlack: '#252F3F',
             },
+            backgroundImage: {
+                sidebarCardBg: "url('./images/pic-suggestion.png')",
+            },
         },
     },
     variants: {
